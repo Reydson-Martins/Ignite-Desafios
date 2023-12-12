@@ -1,0 +1,53 @@
+.inputList {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+.inputList form{
+    display: flex;
+    gap: 0.5rem;
+    
+}
+.inputList input{
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border:1px solid var(--gray-700);
+    width: 638px;
+    height: 54;
+    padding: 16px;
+    
+}
+.inputList input:focus{
+    color: var(--gray-100);
+    border: 1px solid var(--purple);
+    outline: none;
+    transition: 0.3s;
+}
+.inputList button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    color: var(--gray-100);
+    background-color: var(--blue-dark);
+    gap: 0.5rem;
+    width: 90px;
+    height: 54px;
+
+}
+.inputList button:not(:disabled):hover{
+    background-color: var(--blue);
+    transition: 0.3s;  
+}
+.inputList button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.icon{    
+    font-size: 20px;
+    color: var(--gray-100) ;
+                
+}

@@ -1,0 +1,12 @@
+.Done strong {
+  color: var(--purple);
+  display: flex;
+  gap: 8px;
+}
+
+.Done span {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--gray-200);
+}

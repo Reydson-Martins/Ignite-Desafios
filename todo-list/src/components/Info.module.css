@@ -1,0 +1,14 @@
+.Info{
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Info Header{
+  display: flex;
+  justify-content: space-between;
+  width: 736px;
+}

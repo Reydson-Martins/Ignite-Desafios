@@ -1,0 +1,16 @@
+.header {
+    background-color: #0D0D0D;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--blue);
+}
+.logo span{
+    color: var(--purple);
+}

@@ -1,0 +1,11 @@
+.Created strong {
+  display: flex;
+  gap: 8px;
+  color: var(--blue);
+}
+.Created span {
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--gray-200);
+}
